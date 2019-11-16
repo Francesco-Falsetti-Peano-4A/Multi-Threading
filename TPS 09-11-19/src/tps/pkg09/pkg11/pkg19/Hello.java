@@ -11,6 +11,7 @@ package tps.pkg09.pkg11.pkg19;
  */
 public class Hello extends Thread {
 
+    @Override
     public void run() {
         for (int i = 0; i < 8; i++) {
             System.out.println("hello");

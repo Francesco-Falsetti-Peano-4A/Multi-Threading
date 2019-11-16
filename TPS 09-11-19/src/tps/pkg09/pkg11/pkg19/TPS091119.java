@@ -15,11 +15,12 @@ public class TPS091119 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        /*Hi w1=new Hi();
+        //Parte Hi e Hello
+        Hi w1=new Hi();
         Hello w2=new Hello();
         w1.start();
-        w2.start();*/
-
+        w2.start();
+        //Parte say
         Say w3 = new Say("ciao");
         Say w4 = new Say("ciao1");
         Say w5 = new Say("ciao2");
