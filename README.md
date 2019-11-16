@@ -1,4 +1,8 @@
 # Multi-Threading
+Concetti base:
+Multithreading: È l'azione che compie il processore nell'eseguire più thread comtemporaneamente.
+Il tempo di esecuzione e la complessità temporale del programma si riduce.
+In pratica, il programma termina l'elaborazione dati in minore tempo.
 Prima parte:
 (Classe Hi e Hello).
 Abbiamo creato due classi che estendevano due thread ciascuno e dopo aver creato il metodo run, uno per ogni classe, abbiamo istanziato due oggetti, uno di tipo Hi e l'altro di tipo Hello.
