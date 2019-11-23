@@ -14,11 +14,13 @@ public class TestInc1000 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Inc1000 c1=new Inc1000();
         Inc1000 c2=new Inc1000();
         c1.start();
         c2.start();
+        c1.join();
+        c2.join();
         System.out.println(Inc1000.count);
     }
     
