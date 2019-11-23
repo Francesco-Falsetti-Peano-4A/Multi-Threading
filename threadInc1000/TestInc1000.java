@@ -18,8 +18,8 @@ public class TestInc1000 {
         Inc1000 c1=new Inc1000();
         Inc1000 c2=new Inc1000();
         c1.start();
-        c2.start();
         c1.join();
+        c2.start();
         c2.join();
         System.out.println(Inc1000.count);
     }
